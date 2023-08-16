@@ -88,12 +88,6 @@ public class Employe implements Serializable {
     @Override
     public String toString() {
         return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", phone='" + phone + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
-                '}';
+                "id=" + id + ", name='" + name + '\'' + ", email='" + email + '\'' + ", jobTitle='" + jobTitle + '\'' + ", phone='" + phone + '\'' + ", imageUrl='" + imageUrl + '\'' + '}';
     }
 }
