@@ -7,4 +7,5 @@ import tech.getarrays.employemanager.model.Employe;
 public interface employeRepo extends JpaRepository<Employe, Long >{
 int i = 1 + 1;
 int h=5+1;
+int r=1+2;
 }
